@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #3399ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .education {
+    margin-bottom: 15px;
+}
+
+.job h3, .education h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p, .education p {
+    font-size: 1em;
+    color: #666;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+header.img {
+
+    height: 200px,
+
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #3399ff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: blue;
+}

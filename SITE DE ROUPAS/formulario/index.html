@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Roupas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+    <header>
+        <a href="http://localhost:63342/SITE%20DE%20ROUPAS/index.html?_ijt=73hj4sja4n9e0662ibnde750i8#home" class="btn-home">Início</a>
+    </header>
+    <h1>Formulário de Pedido</h1>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" placeholder="(99) 99999-9999" required>
+
+        <label for="tamanho">Tamanho:</label>
+        <select id="tamanho" name="tamanho" required>
+            <option value="" disabled selected>Selecione o tamanho</option>
+            <option value="P">P</option>
+            <option value="M">M</option>
+            <option value="G">G</option>
+            <option value="GG">GG</option>
+        </select>
+
+        <label for="cor">Cor Preferida:</label>
+        <input type="color" id="cor" name="cor">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Deixe uma mensagem..."></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
+</body>
+</html>
